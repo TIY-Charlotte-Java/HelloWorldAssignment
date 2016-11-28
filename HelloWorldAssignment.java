@@ -9,7 +9,7 @@ Benjamin Burr
 println is a method
 create java file with echo "string" >filename.java
 edit file with textedit to format to java
-class "NameOfClass" {
+class "NameOfClass(Also name of file)" {
 	public static void main(String[] args) {
 		System.out.println("scrypt");
 	}
@@ -22,6 +22,11 @@ git status - look for newly added java file
 git commit -m "some sort of comment"
 git status - should be "nothing to commit. Working Branch Clean"
 git push - send the file to the fork on github
+
+CHECK YOUR CODE!
+
+In term and in correct file cd, run javac filename.java
+then java filename
 
 next:
 go to github.com 
