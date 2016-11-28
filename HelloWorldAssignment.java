@@ -2,7 +2,9 @@ class HelloWorldAssignment{
 
 public static void main (String [] args){
 
-System.out.println("My name is Emileen Marianayagam");
+String name = "Emileen Marianayagam";
+
+System.out.println("My name is " + name);
 
 }
 
