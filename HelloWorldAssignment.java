@@ -2,11 +2,21 @@ class HelloWorldAssignment{
 
 public static void main (String [] args){
 
-String name = "Emileen Marianayagam";
+	HelloWorldAssignment me = new HelloWorldAssignment();
+	me.display();
 
-System.out.println("My name is " + name);
+  }
+
+
+
+public static void display(){
+
+  String name = "Emileen Marianayagam";
+
+  System.out.println("My name is " + name);
 
 }
+
 
 
 
