@@ -8,7 +8,7 @@ class WhoCouldItBeNow {
     String bName = "Sylvia";
     String cName = whoIsIt(aName, bName);
 
-    System.out.println("It is" + cName);
+    System.out.println("It is " + cName);
   }
 
 
