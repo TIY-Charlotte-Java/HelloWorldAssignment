@@ -1,9 +1,13 @@
-class VariableExample {
-    public static void main(String args[]) {
-        String myName = "Benjamin Burr";
-        System.out.println(myName);
+class Methods {
+    public static String sayName() {
+        return "Benjamin Burr";
+    } 
+    public static void main(String[] args) {
+        String printName = sayName();
+        System.out.println(printName);
     }
 }
+
 /*
 Benjamin Burr
 println is a method
