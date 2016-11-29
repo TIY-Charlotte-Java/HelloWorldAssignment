@@ -1,6 +1,12 @@
 class HelloWorldAssignment {
+
+  public void printName(){
+    System.out.println("Kelsey Newman");
+}
+
   public static void main(String[] args) {
-    String myName = "Kelsey Newman";
-    System.out.println(myName);
+    HelloWorldAssignment myName = new HelloWorldAssignment();
+    myName.printName();
+
   }
 }
