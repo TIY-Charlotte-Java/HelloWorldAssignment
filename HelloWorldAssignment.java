@@ -1,9 +1,9 @@
-class HelloWorldAssignment {
-	public static void main(String[] args) {
-		System.out.println("Benjamin Burr");
-	}
+class VariableExample {
+    public static void main(String args[]) {
+        String myName = "Benjamin Burr";
+        System.out.println(myName);
+    }
 }
-
 /*
 Benjamin Burr
 println is a method
